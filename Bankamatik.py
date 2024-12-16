@@ -2,7 +2,7 @@
                                          #!BANKAMATİK UYGULAMASI
 
 #  Kullanıcı 2'ye ait hesap bilgilerini içeren sözlük
-hesapYuksel = {
+Kullanıcı2 = {
     "ad": "Kullanıcı2",  # Hesap sahibinin adı
     "hesapNo": "123456",  # Hesap numarası
     "bakiye": 4000,  # Hesaptaki mevcut bakiye
@@ -10,7 +10,7 @@ hesapYuksel = {
 }
 
 # Kullanıcı 1'e ait hesap bilgilerini içeren sözlük
-hesapMuco = {
+Kullanıcı1 = {
     "ad": " Kullanıcı1",  # Hesap sahibinin adı
     "hesapNo": "654321",  # Hesap numarası
     "bakiye": 2000,  # Hesaptaki mevcut bakiye
@@ -19,8 +19,8 @@ hesapMuco = {
 
 # Hesapları içeren bir sözlük
 hesaplar = {
-    "1": hesapYuksel,  # İlk hesap Yüksel YENİYIL'a ait
-    "2": hesapMuco  # İkinci hesap Mücahit Yeniyıl'a ait
+    "1": Kullanıcı2,  # İlk hesap Yüksel YENİYIL'a ait
+    "2": Kullanıcı1  # İkinci hesap Mücahit Yeniyıl'a ait
 }
 
 # Hesap seçme fonksiyonu
